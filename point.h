@@ -34,8 +34,8 @@ public:
 
     // destructeur
 
-
-
+      
+    // surcharges
     friend ostream& operator<<(ostream& s,const point& p1);
     void operator +=(const point& p1);
 };
