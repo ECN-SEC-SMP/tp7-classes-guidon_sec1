@@ -11,5 +11,8 @@ main.o : main.cpp
 point.o : point.cpp
 	g++ -o point.o -c point.cpp -g
 
+forme.o : point.cpp
+	g++ -o point.o -c point.cpp -g
+
 clean :
 	del *.o
